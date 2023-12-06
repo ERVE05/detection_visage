@@ -4,7 +4,7 @@ opencv-python-headless
 imageai
 pillow
 av
-cv2
+
 a_cv_imwrite_imread_plus
 create_empty_image
 cv2watermark
