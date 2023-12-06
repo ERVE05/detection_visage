@@ -3,7 +3,8 @@ import cv2
 import streamlit as st
 
 # Chargement du classificateur de visages Haar Cascade
-face_cascade = cv2.CascadeClassifier('C:/Users/USER/Downloads/haarcascade_frontalface_default.xml')
+#face_cascade = cv2.CascadeClassifier('C:/Users/USER/Downloads/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 # Dictionnaire pour stocker les noms et les images des individus connus
 known_faces = {}
 
